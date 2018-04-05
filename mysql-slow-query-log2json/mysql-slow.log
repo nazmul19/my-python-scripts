@@ -1,0 +1,6 @@
+# Time: 140322 13:54:58
+# User@Host: root[root] @ localhost []
+# Query_time: 0.000303  Lock_time: 0.000090 Rows_sent: 1  Rows_examined: 10
+use profile_sampling;
+SET timestamp=1395521698;
+SELECT * FROM users WHERE name = 'Jesse';
